@@ -9,7 +9,12 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+
+
+# lock files
 bun.lockb
+package-lock.json
+yarn.lock
 
 # testing
 /coverage
@@ -24,6 +29,13 @@ bun.lockb
 # misc
 .DS_Store
 *.pem
+.vscode
+
+# workflows
+/.github
+
+# Husky and lint-staged
+.husky/_
 
 # debug
 npm-debug.log*
