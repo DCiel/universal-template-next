@@ -35,7 +35,7 @@ yarn.lock
 /.github
 
 # Husky and lint-staged
-.husky/_
+/.husky
 
 # debug
 npm-debug.log*
